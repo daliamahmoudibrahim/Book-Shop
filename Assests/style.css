@@ -34,7 +34,7 @@ html{
 .btn:hover{
    background-color: rgb(55, 199, 55);
 }
-/* #load{
+#load{
     width: 100%;
     height: 100vh;
     background:rgb(245, 244, 244) url(./image/loader-img.gif);
@@ -48,7 +48,7 @@ html{
     top: 0;
     bottom: 0;
     z-index: 100;
-} */
+}
 
 
 
@@ -362,6 +362,7 @@ width: 100%;
       flex-direction: column;
       width: 80%;
       margin: auto;
+      height: auto;
    }
 
    #mainPage .container .maintext{
@@ -620,10 +621,10 @@ width: 100%;
    display: flex;
    flex-direction: column;
    padding-top: 15%;
-   padding-right: 100px;
+   padding-right: 15vw;
 }
 #newArrivals form input{
-   width: 400px;
+   width: 50vw;
    padding: 2vh 1vh ;
    border-radius: 3px;
    margin: 2vh 0;
@@ -646,7 +647,8 @@ width: 100%;
    background-attachment: scroll;
    width: 100%;
    height: 28vh;
-   padding: 7vh 0;
+   padding: 7vh 0vw 7vh 50vw;
+   
    background-size: cover;
    margin-top: 5vh;
 
