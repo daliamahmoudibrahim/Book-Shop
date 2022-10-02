@@ -351,6 +351,11 @@ width: 100%;
       margin: auto;
       text-align: center;
    } */
+
+   #mainPage .container .mainimg{
+      width: 70%;
+      /* background-color: green; */
+   }
  }
  @media screen and (max-width:992px) {
    #mainPage .container{
@@ -380,6 +385,7 @@ width: 100%;
       display: block;
       /* background-color: blueviolet; */
    }
+  
    #stand{
        /* width: 500px; */
    }
