@@ -351,6 +351,10 @@ width: 100%;
       margin: auto;
       text-align: center;
    } */
+   #mainPage{
+      height: auto;
+      padding-bottom: 2vh;
+   }
 
    #mainPage .container .mainimg{
       width: 70%;
