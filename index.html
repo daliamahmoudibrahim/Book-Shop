@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookly</title>
+    <link rel="shortcut icon" href="./Assests/image/loader-img.gif" type="image/x-icon">
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./Assests/style.css">
+    
+</head>
+<body>
+    <!-- 
+        ==============load page================
+     -->
+    <div id="load"></div>
+    <!--
+        ====================header==============
+      -->
+    <header>
+        <div id="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="./Assests/image/logo.jpg">
+                </div>
+                <div class="input">
+            
+                       <input type="text" placeholder="search here...">
+                       <i class="fa-solid fa-magnifying-glass" ></i>
+                </div>
+                        <div id="form">
+                            <i class="fa-solid fa-xmark" id="closeform"></i>
+                            <form>
+                                <h1>SIGN IN</h1>
+                                <div class="field">
+                                    <label>Username</label>
+                                    <input type="text" placeholder="enter your email">
+                                </div>
+                                <div class="field">
+                                    <label>Password</label>
+                                    <input type="text" placeholder="enter your password">
+                                </div>
+                                <div class="rememberme">
+                                    <input type="checkbox" id="rememberme">
+                                    <label for="rememberme">Remember Me</label>
+                                </div>
+                                <button class="btn">Sign in</button>
+                                <p>Forget Password? <a href="#">Click Here</a></p>
+                                <p>Don`t Have An Account? <a href="#">Create One</a></p>
+                            
+                            </form>
+                        </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-magnifying-glass" id="search-media"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user" id="userform"></i>
+                    </div>
+
+            </div>
+        </div>
+        <nav id="nav" >
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#featurebooks">Featured</a></li>
+            <li><a href="#newArrivals-books">Arrivals</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#Blogs">Blogs</a></li>
+           </ul>
+        </nav>
+      <!-- 
+        *********************nav display in media *****************
+       -->
+        <nav id="nav-media">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#featurebook-media"><i class="fa-solid fa-bars"></i></a></li>
+                <li><a href="#newArrival-book-media"><i class="fa-solid fa-share"></i></a></li>
+                <li><a href="#reviews-media"><i class="fa-solid fa-comments"></i></a></li>
+                <li><a href="#blogs-media"><i class="fa-solid fa-blog"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 
+        =============================end header====================
+     -->
+
+     <!-- 
+        ================================start main===================
+      -->
+    <main>
+        <!-- 
+            ========mainpage=========
+         -->
+     <section id="mainPage">
+        <div class="container">
+            <div class="maintext">
+                <h1> Up to 75% Off</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere sequi necessitatibus dolor sit amet consectetur dolor sit</p>
+                <button class="btn btn-padding">Shop Now</button>
+            </div>
+            <div class="mainimg  desktop">
+                
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./Assests/image/book-1.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-2.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-3.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-4.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-5.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-6.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-7.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-8.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-9.png"></div>
+                    </div>
+                  </div>
+                   <img src="./Assests/image/stand.png" alt="stand" id="stand">
+                
+            </div>
+            <div class="media mainimg">
+                
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./Assests/image/book-1.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-2.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-3.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-4.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-5.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-6.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-7.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-8.png"></div>
+                      <div class="swiper-slide"><img src="./Assests/image/book-9.png"></div>
+                    </div>
+                  </div>
+                   <img src="./Assests/image/stand.png" alt="stand" id="stand">
+                
+            </div>
+        </div>
+     </section>
+    
+     <!-- 
+        ===============end main page=================
+      -->
+      <!-- 
+        ===============feature itemssection=========
+       -->
+       <section id="featureitems">
+            <div class="container">
+                <div class="featureitem">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <div class="descitem">
+                        <h3>Free Shiping</h3>
+                        <p>Order Over $100</p>
+                    </div>
+                </div>
+                <div class="featureitem">
+                    <i class="fa-solid fa-lock"></i>
+                    <div class="descitem">
+                        <h3>Secure Payment</h3>
+                        <p>100 secure Payment</p>
+                    </div>
+                </div>
+                <div class="featureitem">
+                    <i class="fa-solid fa-rotate-right"></i>
+                    <div class="descitem">
+                        <h3>Easy Returns</h3>
+                       <p>10 Day`s Returns</p>
+                    </div>
+                </div>
+                <div class="featureitem">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="descitem">
+                        <h3>24/7 Support</h3>
+                        <p>Call Us Anytime</p>
+                    </div>
+                </div>
+
+            </div>
+       </section>
+         <!-- 
+        ===============feature itemssection=========
+       -->
+         <!-- 
+        ===============feature bookssection=========
+       -->
+       <section id="featurebooks">
+        <h1>Feature Books</h1>
+        <div class="container">
+        <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+           <div class="featurebook swiper-slide">
+                <img src="./Assests/image/book-1.png">
+                <h4>Featured books</h4>
+                <h5>$15.99<span>$20.00</span></h5>
+                <button class="btn btn-padding">Add to cart</button>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+           </div>
+           <div class="featurebook swiper-slide">
+            <img src="./Assests/image/book-2.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="featurebook swiper-slide">
+                <img src="./Assests/image/book-3.png">
+                <h4>Featured books</h4>
+                <h5>$15.99<span>$20.00</span></h5>
+                <button class="btn btn-padding">Add to cart</button>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+        </div>
+        <div class="featurebook swiper-slide">
+            <img src="./Assests/image/book-4.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+        <div class="featurebook swiper-slide">
+            <img src="./Assests/image/book-5.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+        <div class="featurebook swiper-slide">
+            <img src="./Assests/image/book-6.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+        <div class="featurebook swiper-slide">
+            <img src="./Assests/image/book-7.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+        <div class="featurebook swiper-slide">
+            <img src="./Assests/image/book-8.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+      </div>
+      </div>
+
+       </section>
+
+       <!-- feature books media -->
+     <section id="featurebook-media">
+        <h1>Feature Books</h1>
+        <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-1.png">
+                <h4>Featured books</h4>
+                <h5>$15.99<span>$20.00</span></h5>
+                <button class="btn btn-padding">Add to cart</button>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-2.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-3.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-4.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-5.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-6.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-7.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-8.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            <div class="swiper-slide featurebook">
+                <img src="./Assests/image/book-9.png">
+            <h4>Featured books</h4>
+            <h5>$15.99<span>$20.00</span></h5>
+            <button class="btn btn-padding">Add to cart</button>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        </div>
+      </section>
+       <!-- end feature books media -->
+       <section id="newArrivals">
+        <form>
+          <p>Subscribe For Lasest Updates</p>
+          <input type="email" placeholder="enter your email">
+          <button class="btn btn-padding">Subscribe</button>
+        </form>
+       </section>
+       <section id="newArrivals-books" class="newArrivals-books">
+        <h1>New Arrivals</h1>
+        <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book3.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                        <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book5.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                      <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book7.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-9.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide newArrival-book">
+                        <img src="./Assests/image/book-8.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+            
+                    </div>
+                    <div class="swiper-slide newArrival-book">
+                        <img src="./Assests/image/book-7.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+            
+                    </div>
+
+                     <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-6.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                        <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-3.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                        <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-4.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                  </div>
+              
+            </div>
+        </div>
+       </section>
+       <section  class="newArrivals-books">
+        <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-1.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                        <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-2.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                      <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-3.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-4.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide newArrival-book">
+                        <img src="./Assests/image/book-5.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+            
+                    </div>
+                    <div class="swiper-slide newArrival-book">
+                        <img src="./Assests/image/book-6.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+            
+                    </div>
+
+                     <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-7.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                        <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-8.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                        <div class="swiper-slide newArrival-book">
+                            <img src="./Assests/image/book-9.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                  </div>
+              
+            </div>
+        </div>
+       </section>
+       <!-- 
+        **********************************new Arrivals media*********
+        -->
+
+        <section   class="newArrival-book-media" id="newArrival-book-media">
+            <h1>New Arrivals</h1>
+            <div class="container">
+       <div class="media">
+                
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-1.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-2.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-3.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-4.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-5.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-6.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-7.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-8.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+              <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-9.png">
+                            <div class="desc">
+                               <h4>New Arrival</h4>
+                               <h3>$15.00<span>$20.25</span></h3>
+                               <div class="starts">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star-half-stroke"></i>
+                               </div>
+                            </div>
+                        </div>
+            </div>
+          </div>
+        
+    </div>
+    </div>
+    </section>
+    <section   class="newArrival-book-media">
+        <div class="container">
+   <div class="media">
+            
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-1.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-2.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-3.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-4.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-5.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-6.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-7.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-8.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+          <div class="swiper-slide  newArrival-book"><img src="./Assests/image/book-9.png">
+                        <div class="desc">
+                           <h4>New Arrival</h4>
+                           <h3>$15.00<span>$20.25</span></h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                           </div>
+                        </div>
+                    </div>
+        </div>
+      </div>
+    
+</div>
+</div>
+</section>
+<!-- 
+    *****************************************end new Arrivals media***********
+ -->
+       <section id="dayoff">
+          <div class="container">
+            <div class="desc">
+              <h3>Deal Off The Day</h3>
+              <h2>Upto 50% Off</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quasi sequi iste. Repellat esse quod at nesciunt quis doloribus consectetur recusandae, voluptate molestiae, placeat</p>
+              <button class="btn btn-padding">Show Now</button>
+            </div>
+            <img src="./Assests/image/deal-img.jpg">
+          </div>
+       </section>
+
+       <section id="reviews">
+           <h1>Client`s Reviews</h1>
+
+
+
+        <div class="container">
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide review">
+                <img src="./Assests/image/pic-1.png">
+                    <h2>John Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+              </div>
+              <div class="swiper-slide review">
+                <img src="./Assests/image/pic-2.png">
+                    <h2>John Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+              </div>
+              <div class="swiper-slide review">
+                <img src="./Assests/image/pic-3.png">
+                    <h2>John Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+              </div>
+              <div class="swiper-slide review">
+                <img src="./Assests/image/pic-4.png">
+                    <h2>John Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+              </div>
+              <div class="swiper-slide review">
+                <img src="./Assests/image/pic-5.png">
+                    <h2>John Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi</p>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+              </div>
+              <div class="swiper-slide review">
+                <img src="./Assests/image/pic-6.png">
+                    <h2>John Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- 
+        **********************************review media****************
+        -->
+        <section   class="reviews-media" id="reviews-media">
+            <h1>Client`s reviews</h1>
+            <div class="container">
+              <div class="media">
+                <div class="swiper mySwiper">
+                   <div class="swiper-wrapper">
+                    <div class="swiper-slide review">
+                        <img src="./Assests/image/pic-1.png">
+                            <h2>John Deo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                      </div>
+                      <div class="swiper-slide review">
+                        <img src="./Assests/image/pic-2.png">
+                            <h2>John Deo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                      </div>
+                      <div class="swiper-slide review">
+                        <img src="./Assests/image/pic-3.png">
+                            <h2>John Deo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                      </div>
+                      <div class="swiper-slide review">
+                        <img src="./Assests/image/pic-4.png">
+                            <h2>John Deo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                      </div>
+                      <div class="swiper-slide review">
+                        <img src="./Assests/image/pic-5.png">
+                            <h2>John Deo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                      </div>
+                      <div class="swiper-slide review">
+                        <img src="./Assests/image/pic-6.png">
+                            <h2>John Deo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque a ducimus quibusdam enim delectus atque unde ratione, ipsam aperiam odit, corrupti animi </p>
+                            <div class="starts">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                      </div>
+
+
+
+
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 
+            **************************************end review media********
+         -->
+       <section id="Blogs">
+        <h1>Our Blogs</h1>
+        <div class="container">
+            <div class="swiper mySwiper">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide Blog">
+                <div class="blogimg">
+                <img src="./Assests/image/blog-1.jpg">
+                </div>
+                <h2>Blog Title Goes Here</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button class="btn btn-padding">Read More</button>
+             </div>
+             <div class="swiper-slide Blog">
+                <div class="blogimg">
+                <img src="./Assests/image/blog-2.jpg">
+                 </div>
+                <h2>Blog Title Goes Here</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button class="btn btn-padding">Read More</button>
+             </div>
+             <div class="swiper-slide Blog">
+                <div class="blogimg">
+                <img src="./Assests/image/blog-3.jpg">
+                </div>
+                <h2>Blog Title Goes Here</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button class="btn btn-padding">Read More</button>
+            </div>
+            <div class="swiper-slide Blog">
+                <div class="blogimg">
+                <img src="./Assests/image/blog-4.jpg">
+                </div>
+                <h2>Blog Title Goes Here</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button class="btn btn-padding">Read More</button>
+            </div>
+            <div class="swiper-slide Blog">
+                <div class="blogimg">
+                <img src="./Assests/image/blog-5.jpg">
+                </div>
+                <h2>Blog Title Goes Here</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button class="btn btn-padding">Read More</button>
+            </div>
+         </div>
+         </div>
+        </div>
+       </section>
+       <!-- 
+        *************************************blogs media*********
+        -->
+        <section   class="blogs-media" id="blogs-media">
+            <h1>Our Blogs</h1>
+            <div class="container">
+              <div class="media">
+                <div class="swiper mySwiper">
+                   <div class="swiper-wrapper">
+                    <div class="swiper-slide Blog">
+                        <div class="blogimg">
+                        <img src="./Assests/image/blog-1.jpg">
+                        </div>
+                        <h2>Blog Title Goes Here</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <button class="btn btn-padding">Read More</button>
+                    </div>
+                    <div class="swiper-slide Blog">
+                        <div class="blogimg">
+                        <img src="./Assests/image/blog-2.jpg">
+                        </div>
+                        <h2>Blog Title Goes Here</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <button class="btn btn-padding">Read More</button>
+                    </div>
+                    <div class="swiper-slide Blog">
+                        <div class="blogimg">
+                        <img src="./Assests/image/blog-3.jpg">
+                        </div>
+                        <h2>Blog Title Goes Here</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <button class="btn btn-padding">Read More</button>
+                    </div>
+                    <div class="swiper-slide Blog">
+                        <div class="blogimg">
+                        <img src="./Assests/image/blog-4.jpg">
+                        </div>
+                        <h2>Blog Title Goes Here</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <button class="btn btn-padding">Read More</button>
+                    </div>
+                    <div class="swiper-slide Blog">
+                        <div class="blogimg">
+                        <img src="./Assests/image/blog-5.jpg">
+                        </div>
+                        <h2>Blog Title Goes Here</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <button class="btn btn-padding">Read More</button>
+                    </div>
+                    <div class="swiper-slide Blog">
+                        <div class="blogimg">
+                        <img src="./Assests/image/blog-1.jpg">
+                        </div>
+                        <h2>Blog Title Goes Here</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <button class="btn btn-padding">Read More</button>
+                    </div>
+
+
+                    </div>
+                </div>
+             </div>
+            </div>
+        </section>
+     
+        <!-- 
+            **********************************end blogs media**********
+         -->
+       <section id="links">
+        <div class="linkgroup">
+            <h2>Our Locations</h2>
+            <div class="link">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>India</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>USA</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Russia</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>France</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Japan</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Africa</p>
+            </div>
+        </div>
+        <div class="linkgroup">
+            <h2>Quick Links</h2>
+            <div class="link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>Home</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-arrow-right"></i>
+              <p>Featured</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>Arrivals</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-arrow-right"></i>
+                 <p>Reviews</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p> Blogs</p>
+            </div>
+        </div>
+        <div class="linkgroup">
+            <h2>Extra Links</h2>
+                <div class="link">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>Account info</p>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>ordered items</p>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>privacy policy</p>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>payment method</p>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>our services</p>
+                </div>
+            
+        </div>
+        <div class="linkgroup">
+            <h2>Contact info</h2>
+            <div class="link">
+                <i class="fa-solid fa-phone"></i>
+                <p>+123-456-7890</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-phone"></i>
+                <p>+111-222-3333</p>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-envelope"></i>
+                <p>dalia.mahmoud5777@gmail.com</p>
+            </div>
+            <img src="./Assests/image/worldmap.png" alt="worldmap">
+        </div>
+       </section>
+       <section id="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-pinterest"></i>
+       </section>
+    </main>
+    <footer>
+        <p>Created By <span>Ahmed Megahed</span> |All Rights Reserved!</p>
+        <p><span>Dalia Mahmoud Ibrahim</span></p>
+    </footer>
+    <!-- swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./Assests/script.js"></script>
+</body>
+</html>
